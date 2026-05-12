@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NovaTech Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <h1>NovaTech</h1>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="hero">
+
+            <div class="hero-text">
+                <h2>Build Your Future With Technology</h2>
+
+                <p>
+                    We create modern digital experiences with clean design,
+                    fast performance, and innovative solutions.
+                </p>
+
+                <a href="#" class="btn">Get Started</a>
+            </div>
+
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop" alt="Technology">
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Features -->
+    <section class="features">
+
+        <h2>Our Features</h2>
+
+        <div class="feature-container">
+
+            <div class="card">
+                <h3>Fast Performance</h3>
+                <p>
+                    Optimized solutions that ensure smooth and fast user experiences.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Modern Design</h3>
+                <p>
+                    Creative and responsive layouts with attractive UI components.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Secure Platform</h3>
+                <p>
+                    Strong security and reliable architecture for modern applications.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About -->
+    <section class="about">
+
+        <div class="about-text">
+            <h2>Why Choose Us?</h2>
+
+            <p>
+                We combine creativity and technology to deliver outstanding digital
+                products that help businesses grow faster and smarter.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 NovaTech. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

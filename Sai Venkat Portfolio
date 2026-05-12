@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sai Venkat Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f5f5;
+      color: #222;
+    }
+
+    header {
+      background: #333;
+      color: white;
+      padding: 20px 8%;
+      min-height: 100vh;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 30px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 60px;
+      gap: 40px;
+    }
+
+    .hero-text {
+      max-width: 50%;
+    }
+
+    .hero-text h2 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #3b82f6;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+
+    .hero img {
+      width: 380px;
+      border-radius: 20px;
+      object-fit: cover;
+    }
+
+    section {
+      padding: 80px 8%;
+      background: white;
+    }
+
+    h3.section-title {
+      font-size: 34px;
+      margin-bottom: 25px;
+    }
+
+    .about {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .about img {
+      width: 300px;
+      border-radius: 20px;
+    }
+
+    .skills-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .skill-card {
+      padding: 12px 22px;
+      background: #3b82f6;
+      color: white;
+      border-radius: 8px;
+    }
+
+    .project-card {
+      background: #f0f4ff;
+      padding: 25px;
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <h1>Sai Venkat Portfolio</h1>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-text">
+      <h2>SIRASAPALLI SAI VENKAT</h2>
+      <p>
+        CSE Student | Full Stack Enthusiast | Competitive Programmer.<br><br>
+        Passionate about building responsive web apps, solving algorithmic problems,
+        and learning modern technologies.
+      </p>
+      <a href="#contact" class="btn">Hire Me</a>
+    </div>
+
+    <img src="c:\Users\saive\Pictures\Camera Roll\WhatsApp Image 2026-03-31 at 11.08.17 PM.jpeg" alt="Sai Venkat" />
+  </div>
+</header>
+
+<section id="about">
+  <h3 class="section-title">About Me</h3>
+  <div class="about">
+    <img src="c:\Users\saive\Pictures\Camera Roll\WhatsApp Image 2026-03-31 at 11.08.17 PM.jpeg" alt="Profile" />
+    <div>
+      <p>
+        I am a 3rd year Computer Science Engineering student at Amrita University.
+        Strong interest in Full Stack Development and Problem Solving.
+      </p><br>
+      <h3>Experience</h3>
+      <p>
+        Internship at Steel Plant on Real Time Data Management Systems.
+      </p><br>
+      <p><strong>Education:</strong><br>
+        Delhi Public School, Visakhapatnam<br>
+        Tirumala Junior College<br>
+        Amrita University
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h3 class="section-title">Skills</h3>
+  <div class="skills-container">
+    <div class="skill-card">HTML</div>
+    <div class="skill-card">CSS</div>
+    <div class="skill-card">JavaScript</div>
+    <div class="skill-card">Python</div>
+    <div class="skill-card">Java</div>
+    <div class="skill-card">C</div>
+    <div class="skill-card">DSA</div>
+  </div>
+</section>
+
+<section id="projects">
+  <h3 class="section-title">Projects</h3>
+  <div class="project-card">
+    <h4>Real Time Employee Management System</h4>
+    <p>
+      Responsive employee management application using HTML, CSS, and JavaScript.
+    </p>
+  </div>
+</section>
+
+<section id="contact">
+  <h3 class="section-title">Contact</h3>
+  <p>Phone: 8074869560</p>
+  <p>Email: saiv3373@gmail.com</p>
+  <br>
+  <a href="file:///C:/Users/saive/Downloads/resume_sai_venkat_sirasapalli%20(updated).pdf" class="btn">Download Resume</a>
+</section>
+
+<footer>
+  <p>© 2026 Sai Venkat Portfolio</p>
+</footer>
+
+</body>
+</html>
